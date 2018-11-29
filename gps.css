@@ -1,12 +1,12 @@
-body{
-    background-image: url(../images/ruefeuvert.jpg);
+body.gpsVoiture{
+    background-image: url(pictures/ruefeuvert.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 1920px;
     height: 1080px;
 }
 .gps{
-background-image: url(../images/gps.png);
+background-image: url(pictures/gps.png);
 margin-top : 150px;
 width: 1200px;
 height: 920px;
@@ -14,7 +14,7 @@ margin-left: 620px;
 background-repeat: no-repeat;
 }
 .gpsPhone{
-    background-image: url(../images/gpsPhone.png);
+    background-image: url(pictures/gpsPhone.png);
     width: 700px;
     height: 920px;
     margin-left: 520px;

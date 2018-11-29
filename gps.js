@@ -17,7 +17,7 @@ function initialiser() {
     };
     var carte = new google.maps.Map(document.getElementById("carte"), options);
     var image = {
-        url:('../images/marker.png'),
+        url:('pictures/marker.png'),
         size : new google.maps.Size(40, 60, "px", "px"),
     };
     var optionsMarker = {
@@ -28,8 +28,7 @@ function initialiser() {
    
     var marker1 = new google.maps.Marker(optionsMarker);
 
-    /* var contenuBulle = 'Chateau de Champs-Sur-Marne'; */
-    var uneBulle = new google.maps.InfoWindow({content : 'Chateau de Champs-Sur-Marne'});
+    var uneBulle = new google.maps.InfoWindow({content : '<a href=#>Chateau de Champs-Sur-Marne</a>'});
 
     marker1.addListener ('click', function(){
         uneBulle.open(carte, marker1)
@@ -45,6 +44,13 @@ function initialiser() {
 
     var marker2 = new google.maps.Marker(optionsMarker);
 
+    var uneBulle2 = new google.maps.InfoWindow({content : '<a href=#>La Ferme Du Buisson</a>'});
+
+    marker2.addListener ('click', function(){
+        uneBulle2.open(carte, marker2)
+    });
+
+
     var optionsMarker = {
         position: new google.maps.LatLng(48.840096, 2.586034),
         map : carte,
@@ -52,6 +58,12 @@ function initialiser() {
     }
 
     var marker3 = new google.maps.Marker(optionsMarker);
+
+    var uneBulle3 = new google.maps.InfoWindow({content : '<a href=#>Université Paris-Est Marne-La-Vallée</a>'});
+
+    marker3.addListener ('click', function(){
+        uneBulle3.open(carte, marker3)
+    });
 }
 
 
@@ -67,7 +79,7 @@ function initialiserPhone() {
     };
     var cartePhone = new google.maps.Map(document.getElementById("cartePhone"), options);
     var image = {
-        url:('../images/marker.png'),
+        url:('pictures/marker.png'),
         size : new google.maps.Size(40, 60, "px", "px"),
     };
     var optionsMarker = {
@@ -78,6 +90,12 @@ function initialiserPhone() {
    
     var marker1 = new google.maps.Marker(optionsMarker);
 
+    var uneBulle = new google.maps.InfoWindow({content : '<a href=#>Chateau de Champs-Sur-Marne</a>'});
+
+    marker1.addListener ('click', function(){
+        uneBulle.open(cartePhone, marker1)
+    });
+
     var optionsMarker = {
         position: new google.maps.LatLng(48.844330, 2.624482),
         map : cartePhone,
@@ -86,6 +104,12 @@ function initialiserPhone() {
 
     var marker2 = new google.maps.Marker(optionsMarker);
 
+    var uneBulle2 = new google.maps.InfoWindow({content : '<a href=#>La Ferme Du Buisson</a>'});
+
+    marker2.addListener ('click', function(){
+        uneBulle2.open(cartePhone, marker2)
+    });
+
     var optionsMarker = {
         position: new google.maps.LatLng(48.840096, 2.586034),
         map : cartePhone,
@@ -93,4 +117,11 @@ function initialiserPhone() {
     }
 
     var marker3 = new google.maps.Marker(optionsMarker);
+
+    var uneBulle3 = new google.maps.InfoWindow({content : '<a href=#>Université Paris-Est Marne-La-Vallée</a>'});
+
+    marker3.addListener ('click', function(){
+        uneBulle3.open(cartePhone, marker3)
+    });
+
 }
