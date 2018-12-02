@@ -2,7 +2,7 @@
 
 class Route {
   private function formatUrl(){
-
+// le path info est l URL
     if (isset($_SERVER["PATH_INFO"])){
       $url = $_SERVER["PATH_INFO"];
     }
@@ -22,7 +22,7 @@ class Route {
 
   public function getController(){
 
-   $controllers= $this->formatUrl();
+   $controllers= $this->formatUrl();//formarUrl retourne un tableau avec les différents éléments de l'URL (tout ce qui est separé par un slash)
 
    //Controlleurs de Connexion / Déconnexion
   if(isset($controllers[2]) && $controllers[2] == "connexion"){
