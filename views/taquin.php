@@ -16,7 +16,7 @@
     <div id="controle">
       <button onclick="clicMelanger()" class="melange">Mélanger</button>
     </div>
-
+    
   </div>
 
 </div>

@@ -170,6 +170,7 @@ a:hover {
 .champs h1 {
   font-family: 'Black Han Sans', sans-serif;
   font-family: 'Playfair Display', serif;
+  color: #000;
 }
 
 .regles {
@@ -184,6 +185,7 @@ a:hover {
 
 .aya h1 {
   font-family: 'Fredericka the Great', cursive;
+  color: #000;
 }
 
 .aya p {
@@ -311,6 +313,7 @@ a:hover {
 
 .foo, .histoire {
   padding: 0;
+  margin: 0;
   height: 100%;
   width: 100%;
   display: flex;
@@ -339,7 +342,6 @@ a:hover {
 
 .div2 {
   background-image: url("pictures/ruefeuvert.jpg");
-  position: top 200px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -488,7 +490,7 @@ legend {
   color: maroon;
   text-shadow: 1px 1px 1px black;
 	border-top: 6px #A52A2A solid;
-	border-right: 6px #800000solid;
+	border-right: 6px #800000 solid;
 	border-bottom: 6px #A52A2A solid;
 	border-left: 6px #800000 solid;
 }
@@ -527,23 +529,17 @@ legend {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-image: url("pictures/bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.Titre {
-  background-color: rgb(250, 235, 215, 0.7);
-  box-shadow: 8px 8px 12px 12px rgb(252, 252, 252, 0.7);
-  font-family: 'Chakra Petch', sans-serif;
-}
-
-.Titre h1 {
-  text-align: center;
-  color: brown;
+#set {
+	border: hidden;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	padding: 5px;
+	background-color:rgb(252, 252, 252, 0.8);
+  box-shadow: 8px 8px 12px 12px rgb(252, 252, 252, 0.8);
+	text-align: center;
 }
 
 .imgtaquin {

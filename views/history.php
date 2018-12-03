@@ -15,7 +15,7 @@
       -pff…déjà 10h, qu’il est long ce feu..
       <br />
       -Je vais finir par être en retard à mon rendez-vous avec Mr x.
-      <br :>
+      <br />
       - « c’est vrai que cela fait déjà un mois et demi qu’il est de retour depuis la dernière mission de
       l’ISS(internationnal space station). C’est un cas intéressant, j’ai eu l’occasion de le rencontrer lors d’un
       premier rendez-vous mais j’avoue ne pas comprendre pourquoi il n’est pas suivis par un autre confrère de l’ESA
