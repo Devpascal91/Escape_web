@@ -10,11 +10,15 @@
     <p>
       -…bip bip…
       <br />
+      <br />
       - « regarde l’heure »
+      <br />
       <br />
       -pff…déjà 10h, qu’il est long ce feu..
       <br />
+      <br />
       -Je vais finir par être en retard à mon rendez-vous avec Mr x.
+      <br />
       <br />
       - « c’est vrai que cela fait déjà un mois et demi qu’il est de retour depuis la dernière mission de
       l’ISS(internationnal space station). C’est un cas intéressant, j’ai eu l’occasion de le rencontrer lors d’un

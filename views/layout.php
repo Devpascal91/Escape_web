@@ -30,6 +30,7 @@ else{
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
   <script async defer type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDKXWXc7s4gIAwcMX15lj2nC2tZSuE61WE"></script>
 
 </head>
