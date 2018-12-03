@@ -1,4 +1,7 @@
 
+<div class="fond">
+
+
 <?php
 require_once "navbar.php";
  ?>
@@ -47,3 +50,4 @@ require_once "navbar.php";
   <input class="click" type="button" value="Enregistrer">
 
 </section>
+</div>
