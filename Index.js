@@ -19,7 +19,7 @@ function initialiser() {
         minZoom : 12,
         maxZoom : 20,
     };
-    var carte = new google.maps.Map(document.getElementById("carte"), options);
+    var carte = new google.maps.Map(document.getElementById("map"), options);
     var image = {
         url:('../images/marker.png'),
         size : new google.maps.Size(40, 60, "px", "px"),

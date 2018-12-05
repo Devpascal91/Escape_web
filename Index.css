@@ -368,39 +368,43 @@ a:hover {
 
 /*-------------------------PAGE 3:gps-----------------------------*/
 
-.gps1 {
+.gps-bg {
   background-image: url('pictures/ruefeuvert.jpg');
-  padding: 0;
-  margin-top: -12%;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
-.gps {
-  background-image: url('pictures/gps.png');
-  margin-top: 150px;
-  width: 1200px;
-  height: 920px;
-  margin-left: 10%;
-  background-repeat: no-repeat;
+.map-border {
+  position: relative;
+  display: flex;
+  width: 80vw;
+  height: 70vh;
+  margin: auto;
+  border-radius: 16px;
+  border-width: 10px;
+  border-color: #252121;
+  border-style: outset;
+  background: linear-gradient( 166deg, #515151 20%, #6f6f6f 50%, #515151 80%);
 }
 
-.gpsPhone {
-  background-image: url('pictures/gpsPhone.png');
-  width: 700px;
-  height: 920px;
-  margin-left: 520px;
-  background-repeat: no-repeat;
+.map {
+  position: absolute;
+  top: 18px;
+  bottom: 18px;
+  left: 24px;
+  right: 24px;
+  width: calc(100% - 48px);
+  height: calc(100% - 38px);
+  border-radius: 8px;
+  /* border: 1px solid #6f6f6fcc; */
 }
 
-#carte {
-  top: 30px;
-  width: 1010px;
-  height: 570px;
-  left: 40px;
-}
+
+
+/* --------------------------- GPS Phone ------------------------*/
 
 #cartePhone {
   top: 65px;
@@ -408,16 +412,6 @@ a:hover {
   height: 772px;
   left: 44px;
   border-radius: 30px
-}
-
-@media screen and (max-width: 425px) {
-  .gps1 {
-    background-image: url("pictures/ruefeuvert.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-  }
 }
 
 /*-------------------taquin-------------------*/
