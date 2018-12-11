@@ -1,0 +1,25 @@
+
+ body {
+   background:rgb(0, 0, 0);
+ }
+
+ #conteneur {
+   width: 400px;
+   height: 300px;
+   border: 1px solid rgb(10, 226, 226);
+   margin: 0 auto;
+   background: rgb(252, 252, 255);
+   text-align: center;
+   border-color: rgb(11, 129, 138);
+
+ }
+
+ h1 {
+   text-align: center;
+   font-variant: small-caps;
+   color: gold;
+ }
+
+#canvaselem{
+color: blue;
+}
