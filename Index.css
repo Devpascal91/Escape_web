@@ -1,3 +1,41 @@
+/*-------------------------PAGE 404-----------------------------*/
+
+.erreur img{
+
+	height: 715px;
+	width:100%;
+	background-repeat: no-repeat;
+
+
+
+}
+
+.erreur{
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.text{
+	background-color: dimgrey;
+	border-radius: 10%;
+	border: 2px solid white;
+	height: 45px;
+	width: 279px;
+	position:absolute;
+	left:40.7%;
+	top:78%;
+
+}
+
+.text a{
+	text-align: center;
+	color:white;
+}
+
+
 /*-------------------------PAGE 1-----------------------------*/
 
 .fond {
