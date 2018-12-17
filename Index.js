@@ -21,7 +21,7 @@ function initialiser() {
 	};
 	var carte = new google.maps.Map(document.getElementById("map"), options);
 	var image = {
-		url: ('pictures/marker.png'),
+		url: ('../pictures/marker.png'),
 		size: new google.maps.Size(40, 60, "px", "px"),
 	};
 	var optionsMarker = {
