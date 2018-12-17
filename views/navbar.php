@@ -25,7 +25,7 @@
         <a href="#">
           <li>Accueil</li>
         </a>
-        <a href="/Escape_web/index.php/history">
+        <a href="/Escape_web/index.php/a1history">
           <li>Démarrer</li>
         </a>
         <a href="#">

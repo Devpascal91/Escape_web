@@ -46,7 +46,7 @@
       <br />
 
       « toucher GPS »</p>
-    <div class="maps"><a href="/Escape_web/index.php/gps"><img width="300" height="160" src="gps.png" /></a></div>
+    <div class="maps"><a href="/Escape_web/index.php/a1gps"><img width="300" height="160" src="gps.png" /></a></div>
   </div>
 
 
