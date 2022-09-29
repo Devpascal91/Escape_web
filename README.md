@@ -9,4 +9,3 @@ git commit -m "Description des modifications" (entre guillemets vous mettez ce q
 
 git pull origin master
 
-git push origin master
